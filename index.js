@@ -1,5 +1,5 @@
 const { cadastrarAluno, listarAlunos, buscarAluno, removerAluno } = require('./src/cadastro');
-const { gerarRelatorio } = require('./src/relatorio');
+const { gerarRelatorio, mostrarRanking } = require('./src/relatorio');
 const { perguntar, pausar, fecharEntrada, titulo } = require('./src/utils');
 
 function mostrarMenu() {
@@ -9,6 +9,7 @@ function mostrarMenu() {
   console.log('3 - Buscar aluno por nome');
   console.log('4 - Remover aluno');
   console.log('5 - Gerar relatorio');
+  console.log('6 - Ranking dos alunos');
   console.log('0 - Sair');
 }
 
@@ -38,6 +39,10 @@ async function main() {
         break;
       case '5':
         gerarRelatorio();
+        await pausar();
+        break;
+      case '6':
+        mostrarRanking();
         await pausar();
         break;
       case '0':
