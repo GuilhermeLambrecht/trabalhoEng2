@@ -1,0 +1,34 @@
+# Dependencias
+node_modules/
+jspm_packages/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Variaveis de ambiente
+.env
+.env.local
+.env.*.local
+
+# Build / cobertura de testes
+dist/
+build/
+coverage/
+.nyc_output/
+
+# Dados gerados em tempo de execucao (nao versionar)
+data/*.json
+
+# Editores e IDEs
+.vscode/
+.idea/
+*.swp
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,17 @@
+{
+  "name": "eng2",
+  "version": "1.0.0",
+  "description": "Sistema de Cadastro de Alunos - projeto da disciplina de Engenharia de Software II",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "faculdade",
+    "engenharia-de-software",
+    "git",
+    "github"
+  ],
+  "author": "",
+  "license": "MIT"
+}
