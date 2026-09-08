@@ -25,7 +25,10 @@ npm start
 - Listagem com situacao (aprovado/reprovado)
 - Busca por nome
 - Remocao por ID
-- Relatorio com media geral, taxa de aprovacao e alunos por curso
+- Relatorio com media geral, taxa de aprovacao, maior e menor nota
+- Desempenho por curso (quantidade e media de cada um)
+- Distribuicao das notas em faixas, exibida como grafico de barras
+- Ranking com os melhores alunos
 
 ## Estrutura do projeto
 
